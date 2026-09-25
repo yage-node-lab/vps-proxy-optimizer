@@ -1,0 +1,18 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.pem
+*.key
+*.crt
+*.yaml.bak*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and sensitive files
+.env
+*.secret
+id_rsa*
