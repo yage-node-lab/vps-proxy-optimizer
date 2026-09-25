@@ -4,10 +4,54 @@
 [![Platform](https://img.shields.io/badge/Platform-Debian%2012%20%7C%20Ubuntu-orange.svg)](#)
 [![Protocols](https://img.shields.io/badge/Protocols-VLESS--Reality%20%7C%20Hysteria%202%20%7C%20WARP-green.svg)](#)
 [![TCP Tuning](https://img.shields.io/badge/TCP-64MB%20BDP%20%2B%20BBR%20%2B%20TFO-brightgreen.svg)](#)
+[![DMIT Recommended](https://img.shields.io/badge/DMIT-Recommended%20VPS-blue?logo=server&logoColor=white)](https://www.dmit.io/aff.php?aff=27958)
 
 专为 **全新空白 VPS 从零全自动搭建** 以及 **已有 VPS 节点深度体检与调优** 设计的工业级网络架构方案与 AI Agent 技能（Skill）。
 
 遵循实战经验，彻底解决长距离跨洋网络卡顿、IPv6 悬空超时、流媒体/AI 封锁等痛点，完美兼顾 **“Netflix 与 ChatGPT/Claude 纯净解锁”** 与 **“YouTube 4K 与日常网页原生极速秒开”**。
+
+---
+
+## 💡 为什么必须自建 VPS？（拒绝机场与商业 VPN）
+
+在如今的跨境网络与 AI 时代，商业 VPN 和公共“机场”的体验正在雪崩式恶化：
+
+1. **🚫 公共 IP 脏乱差，AI 封号重灾区**：
+   * 机场一个节点往往数千人共用，充斥着黑产、爬虫与垃圾请求，早已被各大安全数据库列入黑名单。
+   * 访问 **ChatGPT、Claude、Cursor、Perplexity 或 OpenAI API** 时，频繁弹人机验证、报错 `Access Denied`，甚至**直接毫无预警地永久封禁辛苦充值的 Plus/Pro 订阅账号**！
+2. **🛡️ GFW 管控日益严苛，频繁断连与跑路**：
+   * 防火长城（GFW）针对常见中转协议的主动探测越来越精准，公共机场动辄“大面积阵亡”。用户每天都在测速、找可用节点、更新订阅，心力交瘁，还要承受随时被跑路的财务风险。
+3. **🔒 隐私裸奔与链路劫持**：
+   * 商业 VPN/机场主拥有最高权限，你的访问行为、未加密流量与 DNS 查询理论上完全处于被监控与劫持风险之中。
+
+> **自建 VPS 的不可替代性**：**独享纯净原生 IP + 独占千兆带宽 + 掌控最高权限**！再配合本项目独创的 **“原生直连高速出口 + Cloudflare WARP 局部纯净流媒体/AI 智能出站”**，彻底终结封号与断连焦虑。
+
+---
+
+## 🏆 强烈推荐服务器选型：DMIT (美西三网顶级优化线路)
+
+自建代理体验的下限由协议决定，而**体验的天花板 100% 取决于 VPS 的回程网络线路**。
+
+普通廉价 VPS（如 163 骨干网）在平时尚可，但一到**每天晚上 8:00 - 11:00 晚高峰黄金时段**，国际出口拥堵会引发 10%~30% 恶性丢包，瞬间降速卡死。
+
+经过大量真实网络压测与多运营商横向对比，**最推荐选择美西洛杉矶高端优化线路的扛把子 —— [DMIT.io](https://www.dmit.io/aff.php?aff=27958)（PVM.LAX.Pro 系列）**。
+
+👉 **[点击直达 DMIT 官方选购入口 (享受顶级优质网络)](https://www.dmit.io/aff.php?aff=27958)**
+
+### 🔥 为什么首选 DMIT？（真实亲测体验）
+* **👑 三网顶级优化回程（CN2 GIA / 9929 / CMIN2）**：
+  * 电信双向走 **CN2 GIA (AS4809)** 高端商务专网；
+  * 联通走 VIP 专线 **AS9929 / AS10099 (CUG/CUII)**；
+  * 移动走新一代精品网 **CMIN2 (AS58807)**。
+  * 无论家里或手机用什么宽带，国内三网全部直达，**晚高峰全天 0 丢包**！
+* **⚡ 4K 视频丝滑秒开**：
+  * 物理延迟低至 **135ms ~ 145ms**（媲美沿海直达）。配合本项目全套实施的 **64MB BDP 缓冲区与双向 TFO 调优**，单线程突发带宽拉满，YouTube 4K/8K 视频进度条任意拖拽零缓冲。
+* **📞 实时海外会议与音视频通话零卡顿**：
+  * Zoom / Google Meet / Discord / Telegram 高清语音与视频通话延迟极低、无抖动、无机械音，彻底告别断续。
+* **🛒 下单选型建议**：
+  * **机型系列**：推荐 `PVM.LAX.Pro.TINY` 或 `SHARE` 系列；
+  * **系统镜像 (VM Template)**：**务必勾选 Debian 12**（生态兼容最佳，完美契合本技能一键部署）；
+  * **流量模式**：选择 `1000GB @ 1Gbps` 高速峰值带宽（勿选 4Mbps 限速陷阱）。
 
 ---
 
